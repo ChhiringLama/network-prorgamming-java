@@ -10,4 +10,8 @@ This repo stores the codes I learned during our class of Network programming. Th
 
 ## Chapter 2
 
-- 
+- **Forward IP or DNS Lookup** 
+- **Backward IP or DNS Lookup** 
+- **IP of the Local MAchine** 
+- **MAC of the LOcal Machine** 
+- **Finding the LoopBack address** 
