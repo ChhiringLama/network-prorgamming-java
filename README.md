@@ -15,3 +15,6 @@ This repo stores the codes I learned during our class of Network programming. Th
 - **IP of the Local MAchine** 
 - **MAC of the LOcal Machine** 
 - **Finding the LoopBack address** 
+- **Getters Demo** 
+- **Length Of IP** 
+- **Local Address Types Checking** 
