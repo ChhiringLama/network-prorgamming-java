@@ -5,6 +5,7 @@
 package ipoflocalmachine;
 
 import java.net.*;
+import java.util.Arrays;
 
 /**
  *
@@ -20,7 +21,7 @@ public class IPofLocalMachine {
             InetAddress me = InetAddress.getLocalHost();
             String dottedQuad = me.getHostAddress();
             System.out.println("My address is" + dottedQuad);
-        } catch (UnknownHostException ex) {
+            } catch (UnknownHostException ex) {
             System.out.println("I'm sorry I don't know my own address");
         }
     }
