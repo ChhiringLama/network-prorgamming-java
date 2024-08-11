@@ -20,8 +20,8 @@ public class myMainClass {
      */
     public static void main(String[] args) throws SocketException, UnknownHostException {
 
-//        factoryMethods();
-        getterMethods();
+        factoryMethods();
+//        getterMethods();
     }
 
     public static void showEnumWise() throws SocketException {
