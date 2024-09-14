@@ -18,3 +18,26 @@ This repo stores the codes I learned during our class of Network programming. Th
 - **Getters Demo** 
 - **Length Of IP** 
 - **Local Address Types Checking** 
+- **Internal and multicast address** 
+- **Multicast address** 
+- **Object methods** 
+- **Reachibility Test** 
+- **Specific Multicast scopes** 
+- **Spam check program**  
+
+## Chapter 3
+
+- **Creating URL** 
+- **Password Authenticator class** 
+- **Proxies** 
+- **Retreiving from URL (getContent Method)** 
+- **Retreiving from URL (Simple Method)** 
+- **Retreiving from URL (Open Connection Method)** 
+
+## Chapter 4
+
+- **HTTP and KeepAlive**
+
+## Chapter 5
+
+- **Retreiving Specific Headers** 
