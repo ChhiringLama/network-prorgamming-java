@@ -7,7 +7,8 @@ package serverAndClient;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.*;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 public class CreatingHelloServer {
 
@@ -15,7 +16,7 @@ public class CreatingHelloServer {
         System.out.println("Simple Echo Server");
         //Step 1 : server set up that listend to request coming from port 1099
 
-        try (ServerSocket serverSoc = new ServerSocket(1199)) {
+        try (ServerSocket serverSoc = new ServerSocket(2323)) {
             // Try block with resources as an argument means, we dont have to make finally block with code that
             // that cleans up the resources by closing them for example clientSoc.close();
             //Thus it automatically closes the resources in the argument

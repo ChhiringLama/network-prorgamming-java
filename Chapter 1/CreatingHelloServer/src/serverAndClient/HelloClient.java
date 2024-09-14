@@ -11,7 +11,7 @@ import java.net.Socket;
 
 public class HelloClient {
     public static void main(String[] args) {
-        try (Socket clientsoc = new Socket("localhost", 1199)) {
+        try (Socket clientsoc = new Socket("localhost", 2323)) {
             //Now we have to connect to server "localhost" in this case and can send message to 1099 port
             
             PrintWriter out = new PrintWriter(clientsoc.getOutputStream(), true);
